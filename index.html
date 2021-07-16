@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>SEARCH YOUR MOVIE HERE!</title>
+</head>
+<body>
+    <div id="omdb_demo" class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Title</span>
+            <input type="text" class="form-control" placeholder="Title" id= "title" aria-label="Title" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Year</span>
+            <input type="text" class="form-control" placeholder="Year" aria-label="Year" id="year" aria-describedby="basic-addon1">
+          </div>
+              <button class="btn btn-outline-info" id="omdb_submit" onclick=getData()>Search</button>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h6 id="output"></h6>
+            
+        </div>
+        <div class="col-lg-8 col-lg-offset-2 text-center" id="pretty">
+            
+        </div>
+      </div>
+
+     
+      
+
+
+      <script src="app.js"></script>
+</body>
+</html>
